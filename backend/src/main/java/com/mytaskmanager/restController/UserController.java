@@ -4,15 +4,10 @@ import com.mytaskmanager.pojo.User;
 import com.mytaskmanager.rest.UserRest;
 import org.springframework.web.bind.annotation.PathVariable;
 
-public class UserController implements UserRest {
+public class UserController  {
 
 
 
 
-    public User getUserById(@PathVariable Long id){
-
-        return null;
-
-    }
 
 }
