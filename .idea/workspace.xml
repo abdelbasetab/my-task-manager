@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6485ca4c-5781-4fcf-9de4-4a1f99583e2f" name="Changes" comment="Add Role">
+    <list default="true" id="6485ca4c-5781-4fcf-9de4-4a1f99583e2f" name="Changes" comment="Add Service and custom Exception">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/rest/TaskRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/rest/TaskRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/pojo/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/pojo/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/rest/UserRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/rest/UserRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/restController/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/restController/TaskController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/restController/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/restController/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mytaskmanager/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -28,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Backend" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,8 +57,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.MyTaskManagerApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Abidi/Desktop/Springboot/personal projects/my-task-manager/backend/src/main/java/com/mytaskmanager",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
@@ -143,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706796233226</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Service and custom Exception">
+      <option name="closed" value="true" />
+      <created>1706822767613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706822767613</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +183,7 @@
     <MESSAGE value="Add user and task pojo" />
     <MESSAGE value="Add user and task Rest Api and Controller" />
     <MESSAGE value="Add Role" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Role" />
+    <MESSAGE value="Add Service and custom Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Service and custom Exception" />
   </component>
 </project>

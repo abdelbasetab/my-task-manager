@@ -1,46 +1,32 @@
 package com.mytaskmanager.pojo;
 
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
 //@Entity
+//@Table(name = "tasks")
+//@Data
+//@NoArgsConstructor
 public class Task {
 
-    /**
-     * @Id
-     *     @GeneratedValue(strategy = GenerationType.IDENTITY)
-     */
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "task_id")
     private Long id;
 
+    @NotBlank
     private String title;
+
     private String description;
 
-    /*
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
-    */
+
+//    @ManyToOne
+//    @JoinColumn(name = "user_id")
+//    private User user;
 
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 }

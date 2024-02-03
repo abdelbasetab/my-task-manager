@@ -2,11 +2,15 @@ package com.mytaskmanager.repository;
 
 import com.mytaskmanager.pojo.Task;
 import com.mytaskmanager.pojo.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface TaskRepository {
+public interface TaskRepository  {
 
+    /*      extends JpaRepository<Task,Long>
     List<Task> findByUser(User user);
+
+     */
 
 }
